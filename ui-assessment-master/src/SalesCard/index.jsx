@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function SalesCard({ children, data }) {
 
   return (
-    <Card>
+    <Card role="region" aria-label="Sales Card">
       <div className={styles.wrapper}>
         <div className={styles.header}>
           <div className={styles.headingWrapper}>
@@ -24,7 +24,7 @@ export default function SalesCard({ children, data }) {
         </div>
 
         <p className={styles.description}>
-          You had <span data-testid="boldText"><b>{data.successfulUploads} uploads</b></span> and <b>{data.linesSaved}</b> lines added.
+          You had <b>{data.successfulUploads} uploads</b> and <b>{data.linesSaved}</b> lines added.
         </p>
       </div>
       <div className={styles.content}>{children}</div>
