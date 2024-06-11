@@ -1,0 +1,20 @@
+.wrapper {
+  background: var(--white);
+  padding: 8px;
+}
+
+.heading {
+  color: #3c3c3c;
+}
+
+.percent {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--text-green);
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-gray);
+}
